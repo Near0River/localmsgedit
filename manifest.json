@@ -3,5 +3,5 @@
   "description": "Modifica il contenuto dei messaggi solo localmente (lato client). Non invia nulla al server, non cambia cosa vedono gli altri utenti.",
   "authors": [{ "name": "Tu" }],
   "version": "1.0.0",
-  "main": "index.js"
+  "main": "https://near0river.github.io/localmsgedit/index.js"
 }
