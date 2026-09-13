@@ -1,0 +1,13 @@
+{
+  "name": "local-message-edit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=esm --external:@vendetta/* --minify",
+    "dev": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=esm --external:@vendetta/* --watch --servedir=dist"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.0"
+  }
+}
