@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=esm --external:@vendetta/* --minify",
-    "dev": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=esm --external:@vendetta/* --watch --servedir=dist"
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=cjs --external:@vendetta/* --minify",
+    "dev": "esbuild src/index.tsx --bundle --outfile=dist/index.js --format=cjs --external:@vendetta/* --watch --servedir=dist"
   },
   "devDependencies": {
     "esbuild": "^0.23.0",
